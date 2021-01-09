@@ -6,5 +6,5 @@ let server = app.listen(4000, function () {
   console.log("listening to 4000");
 });
 
-// Static files
+// Set static directory
 app.use(express.static("public"));
